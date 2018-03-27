@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Annyang" type="javaScript">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../annyang/annyang.min.js" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="https://github.com/TalAter/annyang/blob/master/README.md" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>

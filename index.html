@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Voice Play</title>
+    <script src="scripts/phaser.min.js"></script>
+    <script src="scripts/annyang.min.js"></script>
+    <script src="scripts/estados/Boot.js"></script>
+    <script src="scripts/estados/Preload.js"></script>
+    <script src="scripts/estados/Menu.js"></script>
+    <script src="scripts/juegos/Formula/Formula.js"></script>
+    <script src="scripts/juegos/Simon/Simon.js"></script>
+
+</head>
+<body style="margin: 0px;background-color: black">
+    <script>
+        var game = new Phaser.Game(1920,1080,innerHeight,Phaser.AUTO, "juego");
+        game.state.add("boot", Boot);
+        game.state.add("preload", Preload);
+        game.state.add("menu", Menu)
+
+        game.state.add("simon", Simon);
+        game.state.add("formula", Formula);
+
+        game.state.start("boot");
+    </script>
+</body>
+</html>
